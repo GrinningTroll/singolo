@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+.wrapper {
+  margin: 0 auto;
+  width: 1020px;
+  font-family: "Lato", sans-serif;
+}
+
+.quote {
+  height: 568px;
+  background-color: #f06c64;
+  padding: 40px;
+}
+
+.quote__intro___name {
+  font-size: 20px;
+  line-height: 18px;
+  color: #f0d8d9;
+  font-weight: 900;
+  text-align: left;
+  padding-top: 3px;
+}
+
+.quote__intro___name h2 {
+  margin-bottom: 27px;
+}
+
+.quote__intro___text {
+  width: 940px;
+  height: 57px;
+  font-size: 17px;
+  line-height: 30px;
+  color: #f0d8d9;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+  text-align: justify;
+}
+
+.quote__interaction {
+  display: flex;
+  flex-direction: row;
+  padding-top: 31px;
+}
+
+.quote__interaction___modal_block {
+}
+
+.quote__modal_area {
+  font-size: 12px;
+  line-height: 22px;
+  color: #f48c8f;
+  font-weight: 400;
+  text-align: left;
+  width: 605px;
+  height: 38px;
+  border-radius: 5px;
+  background-color: #d6564f;
+  border: none;
+  padding: 0px 0px 0px 14px;
+}
+
+.quote__modal_area::-webkit-input-placeholder {
+  color: #f48c8f;
+}
+
+.quote__modal_textarea {
+  font-size: 12px;
+  line-height: 22px;
+  color: #f48c8f;
+  font-weight: 400;
+  text-align: left;
+  width: 603px;
+  height: 194px;
+  border-radius: 5px;
+  background-color: #d6564f;
+  border: none;
+  padding: 8px 2px 0px 14px;
+  resize: none;
+}
+
+.quote__modal_textarea::-webkit-input-placeholder {
+  color: #f48c8f;
+}
+
+.quote__modal_button {
+  font-size: 12px;
+  line-height: 22px;
+  color: #f48c8f;
+  font-weight: 400;
+  text-align: center;
+  width: 100px;
+  height: 38px;
+  border-radius: 5px;
+  background-color: #d6564f;
+  border: none;
+}
+
+.quote__interaction___contacts {
+  padding-left: 21px;
+}
+
+.quote__interaction___contacts____name {
+  width: 940px;
+  height: 22px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f0d8d9;
+  font-weight: 300;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.quote__interaction___contacts____name h4 {
+  margin: 0px;
+}
+
+.quote__interaction___contacts____text {
+  width: 300px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 8px;
+  text-align: justify;
+}
+
+.quote__interaction___contacts____element {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-weight: 400;
+  text-align: left;
+}
+
+.quote__interaction___contacts____element div {
+  padding-right: 10px;
+}
+
+.quote__interaction___contacts____element p {
+  margin: 0;
+}
+
+.quote__interaction___contacts____element a {
+  text-decoration: none;
+  color: #f0d8d9;
+}
+
+.underline_quote {
+  height: 6px;
+  background-color: #ea676b;
+}
+
+.footer_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 40px 19px 40px;
+  background-color: #2d303a;
+}
+
+.footer_navigation__copyright {
+  font-size: 12px;
+  line-height: 22px;
+  color: #68668a;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 4px;
+  padding-left: 2px;
+}
+
+.footer_navigation__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 152px;
+}
