@@ -11,10 +11,10 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header id = "header">
       <div class="wrapper">
         <!--секция с хэдером-->
-        <section class="header_filling">
+        <section class="header_filling for_scroll"  id="home">
           <!--блок с лого странички-->
           <div class="header_filling__logo">
             <h1 class="invisible_name">singolo</h1>
@@ -22,22 +22,22 @@
             <div class="header_filling__logo___symbol">*</div>
           </div>
           <!--блок с навигационным меню-->
-          <nav>
+          <nav id="header_navigation">
             <ul class="header_filling__navigation">
               <li class="header_filling__navigation___button">
-                <a href="#">home</a>
+                <a class="active" href="#home">home</a>
               </li>
               <li class="header_filling__navigation___button">
-                <a href="#">services</a>
+                <a href="#services">services</a>
               </li>
               <li class="header_filling__navigation___button">
-                <a href="#">portfolio</a>
+                <a href="#portfolio">portfolio</a>
               </li>
               <li class="header_filling__navigation___button">
-                <a href="#">about</a>
+                <a href="#about">about</a>
               </li>
               <li class="header_filling__navigation___button">
-                <a href="#">contact</a>
+                <a href="#contact">contact</a>
               </li>
             </ul>
           </nav>
@@ -80,7 +80,7 @@
       </div>
     </main>
     <!--секция с описанием сервисов-->
-    <section>
+    <section class="for_scroll" id="services">
       <div class="wrapper">
         <div class="services">
           <!--общее описание-->
@@ -224,7 +224,7 @@
       <div class="services__underline"></div>
     </section>
     <!--секция с презентацией портфолио-->
-    <section>
+    <section class=" for_scroll" id="portfolio">
       <div class="wrapper">
         <!--описание портфолио и навигация-->
         <div class="portfolio">
@@ -297,7 +297,7 @@
       </div>
     </section>
     <!--секция с описанием разработчиков-->
-    <section>
+    <section class=" for_scroll" id="about">
       <div class="wrapper">
         <!--описание секции-->
         <div class="about_us">
@@ -393,7 +393,7 @@
       </div>
     </section>
     <!--секция с описанием, модальным окном и контактной информацией-->
-    <section>
+    <section class=" for_scroll" id="contact">
       <div class="wrapper">
         <div class="quote">
           <!--блок с описанием-->
@@ -491,7 +491,7 @@
       </div>
     </section>
     <!--нижняя секция - футер-->
-    <footer>
+    <footer">
       <div class="wrapper">
         <div class="footer_navigation">
           <!--блок с копирайтом-->
@@ -528,5 +528,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

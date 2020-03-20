@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
+* {
+  scroll-behavior: smooth;
+}
+
 .invisible_name {
   font-size: 1px;
   height: 1px;
@@ -12,6 +16,12 @@
   margin: 0 auto;
   width: 1020px;
   font-family: "Lato", sans-serif;
+}
+
+#header {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 
 .header_filling {
@@ -62,6 +72,10 @@
   line-height: 6px;
   font-weight: 500;
   text-align: left;
+}
+
+a.active {
+  color: #f06c64;
 }
 
 .header_filling__navigation___button:first-child {
@@ -429,9 +443,6 @@
   padding-top: 31px;
 }
 
-.quote__interaction___modal_block {
-}
-
 .quote__modal_area {
   font-size: 12px;
   line-height: 22px;
@@ -549,6 +560,7 @@
   align-items: center;
   padding: 22px 40px 19px 40px;
   background-color: #2d303a;
+  margin-bottom: 310px;
 }
 
 .footer_navigation__copyright {
